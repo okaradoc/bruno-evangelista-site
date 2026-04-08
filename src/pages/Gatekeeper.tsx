@@ -17,10 +17,7 @@ export function Gatekeeper({ onValidated }: GatekeeperProps) {
     setLoading(true);
 
     try {
-      // Use absolute URL in production (when running from the single HTML file)
-      const apiUrl = window.location.hostname === 'localhost' || window.location.hostname.includes('.run.app') 
-        ? '/api/validate-master-access' 
-        : 'https://ais-dev-negsq2ahtzig6ejndprpzt-59166774139.us-east1.run.app/api/validate-master-access'; // Fallback to current dev URL for the exported file
+      const apiUrl = '/api/validate-master-access';
 
       const response = await fetch(apiUrl, {
         method: 'POST',
