@@ -1,0 +1,22 @@
+# INSTRUÇÕES PARA O SITE PRONTO
+
+O site foi compilado em um único arquivo chamado `landing.html` para facilitar o seu trabalho.
+
+## Como subir o site para sua hospedagem:
+
+1.  Baixe o arquivo ZIP do projeto.
+2.  Abra a pasta `src/Arquivos_do_Site`.
+3.  Copie o arquivo `landing.html` (ou `index.html`) para a pasta `public_html` (ou a pasta principal) da sua hospedagem.
+4.  **IMPORTANTE:** Se você quiser que este seja o seu site principal, renomeie o arquivo `landing.html` para `index.html` na sua hospedagem.
+
+## Configurações do Supabase:
+
+Certifique-se de que as variáveis de ambiente `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` estão configuradas na sua plataforma de hospedagem para que o site possa carregar os imóveis.
+
+## Novas Funcionalidades:
+
+*   **Filtro de Financiamento:** Agora os usuários podem filtrar imóveis por "Sim" ou "Não" para financiamento bancário.
+*   **Gestão de Leads:** O painel administrativo agora mostra se o interessado tem interesse em financiamento.
+
+---
+Data da última atualização: 26 de Março de 2026.

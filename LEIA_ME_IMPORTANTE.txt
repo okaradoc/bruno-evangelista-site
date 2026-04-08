@@ -1,0 +1,5 @@
+A pasta do seu site está dentro de 'src/Arquivos_do_Site'.
+Se você não estiver vendo ela no explorador de arquivos, por favor, ATUALIZE a página do seu navegador (F5).
+Depois de atualizar, vá em Settings -> Export -> Download as ZIP.
+Dentro do ZIP, entre em src -> Arquivos_do_Site.
+Suba TUDO o que está DENTRO dessa pasta para o seu servidor.
