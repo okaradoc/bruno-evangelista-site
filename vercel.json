@@ -1,9 +1,8 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/landing.html", "destination": "/" },
-    { "source": "/novo_landing.html", "destination": "/" },
-    { "source": "/((?!api/|.*\\..*).*)", "destination": "/index.html" }
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
   "cleanUrls": true
 }
