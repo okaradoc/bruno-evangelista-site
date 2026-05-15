@@ -209,6 +209,7 @@ export function Catalog() {
                 <option value="Terreno">Terreno</option>
                 <option value="Comercial">Comercial</option>
                 <option value="Chácara/Sítio">Chácara/Sítio</option>
+                <option value="Carro">Carro</option>
               </select>
             </div>
 

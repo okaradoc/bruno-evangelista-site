@@ -32,7 +32,7 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        (isScrolled || !isHomePage) ? 'bg-petroleum-900/95 backdrop-blur-sm shadow-md py-4' : 'bg-transparent py-6'
+        (isScrolled || !isHomePage) ? 'bg-petroleum-900/95 backdrop-blur-sm shadow-md py-4' : 'bg-gradient-to-b from-black/60 to-transparent py-6'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
